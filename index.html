@@ -5,6 +5,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vishal Sohala | Portfolio</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description"
+        content="Portfolio of Vishal Sohala, a BCA student and aspiring Web Developer skilled in HTML, CSS, JavaScript, C, and C++.">
+    <meta name="keywords" content="Vishal Sohala, Vishal Sohala portfolio, web developer Vishal, BCA student developer">
+    <meta name="author" content="Vishal Sohala">
+
+    <!-- Open Graph Tags (Social Media) -->
+    <meta property="og:title" content="Vishal Sohala | Portfolio">
+    <meta property="og:description" content="Portfolio of Vishal Sohala, a BCA student and aspiring Web Developer.">
+    <meta property="og:image" content="https://vishalsohala.vercel.app/vishal_sohala.jpeg">
+    <meta property="og:url" content="https://vishalsohala.vercel.app">
+    <meta property="og:type" content="website">
+
+    <!-- Favicon -->
+    <link rel="icon" href="vishal_sohala.jpeg" type="image/jpeg">
+
+    <!-- JSON-LD Structured Data Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org/",
+      "@type": "Person",
+      "name": "Vishal Sohala",
+      "jobTitle": "Web Developer",
+      "url": "https://vishalsohala.vercel.app",
+      "alumniOf": {
+        "@type": "CollegeOrUniversity",
+        "name": "Shree Swaminarayan College of Computer Science"
+      },
+      "knowsAbout": ["HTML", "CSS", "JavaScript", "C", "C++"]
+    }
+    </script>
+
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
     <!-- Icons -->
@@ -43,207 +76,209 @@
         </nav>
     </header>
 
-    <!-- Hero Section -->
-    <section class="home" id="home">
-        <div class="home-content">
-            <!-- <h3>Hello, I'm</h3> -->
-            <h1>Vishal Sohala</h1>
-            <h3><span class="multiple-text"></span></h3>
+    <main>
+        <!-- Hero Section -->
+        <section class="home" id="home">
+            <div class="home-content">
+                <!-- <h3>Hello, I'm</h3> -->
+                <h1>Vishal Sohala</h1>
+                <h3><span class="multiple-text"></span></h3>
 
-            <div style="display: flex; flex-direction: column; gap: 1.5rem; margin-top: 3rem; margin-bottom: 2rem;">
-                <p class="slogan glass-card" style="margin: 0;">
-                    <i class='bx bxs-quote-alt-left'></i>
-                    Stay alone, stay happy.
-                    <i class='bx bxs-quote-alt-right'></i>
+                <div style="display: flex; flex-direction: column; gap: 1.5rem; margin-top: 3rem; margin-bottom: 2rem;">
+                    <p class="slogan glass-card" style="margin: 0;">
+                        <i class='bx bxs-quote-alt-left'></i>
+                        Stay alone, stay happy.
+                        <i class='bx bxs-quote-alt-right'></i>
+                    </p>
+                    <p class="slogan glass-card" style="margin: 0;">
+                        <i class='bx bxs-quote-alt-left'></i>
+                        Safety in staying away from girls.
+                        <i class='bx bxs-quote-alt-right'></i>
+                    </p>
+                    <p class="slogan glass-card" style="margin: 0;">
+                        <i class='bx bxs-quote-alt-left'></i>
+                        Do not trust any one.
+                        <i class='bx bxs-quote-alt-right'></i>
+                    </p>
+                </div>
+
+                <div class="social-media" style="flex-direction: column; align-items: flex-start; gap: 1rem;">
+                    <a href="#" class="social-link instagram-link" title="Instagram">
+                        <i class='bx bxl-instagram'></i>
+                    </a>
+                    <div class="coming-soon-text">Coming Soon</div>
+                </div>
+                <a href="#contact" class="btn">Let's Talk</a>
+            </div>
+
+            <div class="home-img">
+                <div class="img-box">
+                    <img src="vishal_sohala.jpeg" alt="Vishal Sohala - Web Developer" loading="lazy">
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about" id="about">
+            <h2 class="heading">About <span>Me</span></h2>
+            <div class="about-content glass-card">
+                <h3>Passionate Web Developer & Computer Science Student</h3>
+                <p>
+                    Hello! I am <strong>Vishal Sohala</strong>, a student pursuing a Bachelor of Computer Applications
+                    (BCA) at Shree Swaminarayan College of Computer Science. I have a strong passion for technology and
+                    a deep interest in becoming a professional <strong>web developer</strong>.
                 </p>
-                <p class="slogan glass-card" style="margin: 0;">
-                    <i class='bx bxs-quote-alt-left'></i>
-                    Safety in staying away from girls.
-                    <i class='bx bxs-quote-alt-right'></i>
-                </p>
-                <p class="slogan glass-card" style="margin: 0;">
-                    <i class='bx bxs-quote-alt-left'></i>
-                    Do not trust any one.
-                    <i class='bx bxs-quote-alt-right'></i>
+                <p>
+                    I maintain a constant learning attitude, always eager to pick up new skills and build creative
+                    solutions. Currently, I am focusing on expanding my knowledge in full-stack development and
+                    strengthening my programming fundamentals.
                 </p>
             </div>
+        </section>
 
-            <div class="social-media" style="flex-direction: column; align-items: flex-start; gap: 1rem;">
-                <a href="#" class="social-link instagram-link" title="Instagram">
-                    <i class='bx bxl-instagram'></i>
-                </a>
-                <div class="coming-soon-text">Coming Soon</div>
-            </div>
-            <a href="#contact" class="btn">Let's Talk</a>
-        </div>
+        <!-- Skills Section -->
+        <section class="skills" id="skills">
+            <h2 class="heading">My <span>Skills</span></h2>
 
-        <div class="home-img">
-            <div class="img-box">
-                <img src="vishal_sohala.jpeg" alt="Vishal Sohala">
-            </div>
-        </div>
-    </section>
+            <div class="skills-container">
+                <div class="skill-card glass-card">
+                    <i class='bx bx-code-alt'></i>
+                    <h3>Web Development</h3>
+                    <p>HTML, CSS, JavaScript</p>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 80%;"></div>
+                    </div>
+                </div>
 
-    <!-- About Section -->
-    <section class="about" id="about">
-        <h2 class="heading">About <span>Me</span></h2>
-        <div class="about-content glass-card">
-            <h3>Passionate computer science Student</h3>
-            <p>
-                I am student pursuing a Bachelor of Computer Applications (BCA) at Ssccs. I have a strong passion for
-                technology and a deep interest in web
-                development.
-            </p>
-            <p>
-                I maintain a constant learning attitude, always eager to pick up new skills and build creative
-                solutions. Currently, I am focusing on expanding my knowledge in full-stack development and
-                strengthening my programming fundamentals.
-            </p>
-        </div>
-    </section>
+                <div class="skill-card glass-card">
+                    <i class='bx bx-terminal'></i>
+                    <h3>Programming</h3>
+                    <p>C, C++</p>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 70%;"></div>
+                    </div>
+                </div>
 
-    <!-- Skills Section -->
-    <section class="skills" id="skills">
-        <h2 class="heading">My <span>Skills</span></h2>
+                <div class="skill-card glass-card">
+                    <i class='bx bx-data'></i>
+                    <h3>Office Tools</h3>
+                    <p>MS Word, Excel, PowerPoint</p>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 90%;"></div>
+                    </div>
+                </div>
 
-        <div class="skills-container">
-            <div class="skill-card glass-card">
-                <i class='bx bx-code-alt'></i>
-                <h3>Web Development</h3>
-                <p>HTML, CSS, JavaScript</p>
-                <div class="progress-bar">
-                    <div class="progress" style="width: 80%;"></div>
+                <div class="skill-card glass-card">
+                    <i class='bx bx-laptop'></i>
+                    <h3>General</h3>
+                    <p>Computer Knowledge</p>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 85%;"></div>
+                    </div>
                 </div>
             </div>
+        </section>
 
-            <div class="skill-card glass-card">
-                <i class='bx bx-terminal'></i>
-                <h3>Programming</h3>
-                <p>C, C++</p>
-                <div class="progress-bar">
-                    <div class="progress" style="width: 70%;"></div>
+        <!-- Business Section -->
+        <section class="business" id="business">
+            <h2 class="heading">My <span>Business</span></h2>
+
+            <div class="skills-container">
+                <div class="skill-card glass-card">
+                    <i class='bx bx-buildings'></i>
+                    <h3>Gopal Dairy</h3>
+                    <p>Dairy Owner</p>
+                </div>
+
+                <div class="skill-card glass-card">
+                    <i class='bx bx-store-alt'></i>
+                    <h3>Dishan Cattle Feed</h3>
+                    <p>Cattle Feed</p>
                 </div>
             </div>
+        </section>
 
-            <div class="skill-card glass-card">
-                <i class='bx bx-data'></i>
-                <h3>Office Tools</h3>
-                <p>MS Word, Excel, PowerPoint</p>
-                <div class="progress-bar">
-                    <div class="progress" style="width: 90%;"></div>
+        <!-- Projects Section -->
+        <section class="projects" id="projects">
+            <h2 class="heading">My <span>Projects</span></h2>
+            <div class="projects-container">
+                <div class="project-box glass-card">
+                    <div class="project-info">
+                        <h4>Portfolio Website</h4>
+                        <p>A personal portfolio built with HTML, CSS, & JS featuring a modern glassmorphism design.</p>
+                    </div>
+                </div>
+
+                <div class="project-box glass-card placeholder-project">
+                    <i class='bx bx-time-five'></i>
+                    <div class="project-info">
+                        <h4>More Projects</h4>
+                        <p>Coming Soon...</p>
+                    </div>
                 </div>
             </div>
+        </section>
 
-            <div class="skill-card glass-card">
-                <i class='bx bx-laptop'></i>
-                <h3>General</h3>
-                <p>Computer Knowledge</p>
-                <div class="progress-bar">
-                    <div class="progress" style="width: 85%;"></div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Business Section -->
-    <section class="business" id="business">
-        <h2 class="heading">My <span>Business</span></h2>
-
-        <div class="skills-container">
-            <div class="skill-card glass-card">
-                <i class='bx bx-buildings'></i>
-                <h3>Gopal Dairy</h3>
-                <p>Dairy Owner</p>
-            </div>
-
-            <div class="skill-card glass-card">
-                <i class='bx bx-store-alt'></i>
-                <h3>Dishan Cattle Feed</h3>
-                <p>Cattle Feed</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Projects Section -->
-    <section class="projects" id="projects">
-        <h2 class="heading">My <span>Projects</span></h2>
-        <div class="projects-container">
-            <div class="project-box glass-card">
-                <div class="project-info">
-                    <h4>Portfolio Website</h4>
-                    <p>A personal portfolio built with HTML, CSS, & JS featuring a modern glassmorphism design.</p>
-                </div>
-            </div>
-
-            <div class="project-box glass-card placeholder-project">
-                <i class='bx bx-time-five'></i>
-                <div class="project-info">
-                    <h4>More Projects</h4>
-                    <p>Coming Soon...</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Education Section -->
-    <section class="education" id="education">
-        <h2 class="heading">My <span>Education</span></h2>
-        <div class="education-row">
-            <div class="education-column">
-                <div class="education-box glass-card">
-                    <div class="education-content">
-                        <div class="content">
-                            <div class="year"><i class='bx bxs-calendar'></i> Present</div>
-                            <h3>Bachelor of Computer Applications (BCA)</h3>
-                            <p><strong>Student</strong></p>
-                            <p class="college">ssccs</p>
-                            <p>Building a strong foundation in computer science and software development.</p>
+        <!-- Education Section -->
+        <section class="education" id="education">
+            <h2 class="heading">My <span>Education</span></h2>
+            <div class="education-row">
+                <div class="education-column">
+                    <div class="education-box glass-card">
+                        <div class="education-content">
+                            <div class="content">
+                                <div class="year"><i class='bx bxs-calendar'></i> Present</div>
+                                <h3>Bachelor of Computer Applications (BCA)</h3>
+                                <p><strong>Student</strong></p>
+                                <p class="college">ssccs</p>
+                                <p>Building a strong foundation in computer science and software development.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Special Image Section -->
-    <section class="special-image" id="special-image">
-        <h2 class="heading">Special <span>Image</span> in my Life</h2>
-        <div class="special-image-container glass-card">
-            <img src="specoial_image.jpeg" alt="Special Image">
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section class="contact" id="contact">
-        <h2 class="heading">Contact <span>Me</span></h2>
-        <div class="contact-container glass-card">
-            <div class="contact-info">
-                <div class="info-box">
-                    <i class='bx bxs-envelope'></i>
-                    <h4>Email</h4>
-                    <p>vishalshephard77@gmail.com</p>
-                </div>
-                <div class="info-box">
-                    <i class='bx bxs-phone'></i>
-                    <h4>Phone</h4>
-                    <p>+91 6356656519</p>
-                </div>
+        <!-- Special Image Section -->
+        <section class="special-image" id="special-image">
+            <h2 class="heading">Special <span>Image</span> in my Life</h2>
+            <div class="special-image-container glass-card">
+                <img src="specoial_image.jpeg" alt="Vishal Sohala Special Moment - Web Developer" loading="lazy">
             </div>
+        </section>
 
-            <form action="#">
-                <div class="input-box">
-                    <input type="text" placeholder="Full Name" required>
-                    <input type="email" placeholder="Email Address" required>
+        <!-- Contact Section -->
+        <section class="contact" id="contact">
+            <h2 class="heading">Contact <span>Me</span></h2>
+            <div class="contact-container glass-card">
+                <div class="contact-info">
+                    <div class="info-box">
+                        <i class='bx bxs-envelope'></i>
+                        <h4>Email</h4>
+                        <p>vishalshephard77@gmail.com</p>
+                    </div>
+                    <div class="info-box">
+                        <i class='bx bxs-phone'></i>
+                        <h4>Phone</h4>
+                        <p>+91 6356656519</p>
+                    </div>
                 </div>
-                <div class="input-box">
-                    <input type="number" placeholder="Mobile Number" required>
-                    <input type="text" placeholder="Email Subject" required>
-                </div>
-                <textarea name="" id="" cols="30" rows="10" placeholder="Your Message" required></textarea>
-                <button type="submit" class="btn">Send Message</button>
-            </form>
-        </div>
-    </section>
+
+                <form action="#">
+                    <div class="input-box">
+                        <input type="text" placeholder="Full Name" required>
+                        <input type="email" placeholder="Email Address" required>
+                    </div>
+                    <div class="input-box">
+                        <input type="number" placeholder="Mobile Number" required>
+                        <input type="text" placeholder="Email Subject" required>
+                    </div>
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
 
     <!-- Footer -->
     <footer class="footer blur-effect">
