@@ -371,7 +371,7 @@ section {
 /* Projects Section */
 .projects-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 3rem;
 }
 
@@ -609,8 +609,11 @@ section {
         letter-spacing: 2px;
     }
     .home-img .img-box {
-        width: 350px;
-        height: 350px;
+        width: 300px;
+        height: 300px;
+    }
+    .projects-container {
+        grid-template-columns: 1fr;
     }
     .contact form .input-box {
         flex-direction: column;
@@ -623,6 +626,10 @@ section {
 @media (max-width: 450px) {
     html {
         font-size: 50%;
+    }
+    .home-img .img-box {
+        width: 250px;
+        height: 250px;
     }
     .home-content h1 {
         font-size: 5rem;

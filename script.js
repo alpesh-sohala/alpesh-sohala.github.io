@@ -33,7 +33,7 @@ window.onscroll = () => {
 
 // Typing Animation
 const typed = new Typed('.multiple-text', {
-    strings: ['Aspiring Full Stack Developer', 'Web Enthusiast', 'hacker'],
+    strings: ['Aspiring Full Stack Developer', 'Web Enthusiast'],
     typeSpeed: 70,
     backSpeed: 50,
     backDelay: 1500,
